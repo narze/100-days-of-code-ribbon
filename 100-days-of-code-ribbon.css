@@ -11,7 +11,9 @@
   pointer-events: none;
   text-decoration: none;
   text-indent: -999999px;
-  font: 500 1em "avenir next", avenir, sans-serif;
+  font: 700 1em Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* 2. Ribbon */
