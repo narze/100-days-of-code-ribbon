@@ -1,3 +1,4 @@
+/* 1. Position & Hide text */
 .hundred-days-of-code-ribbon {
   position: fixed;
   right: 0;
@@ -10,16 +11,17 @@
   pointer-events: none;
   text-decoration: none;
   text-indent: -999999px;
-  font-family: avenir next, avenir, sans-serif;
-  background-color: red;
+  font: 500 1em "avenir next", avenir, sans-serif;
 }
 
+/* 2. Ribbon */
 .hundred-days-of-code-ribbon:before, .hundred-days-of-code-ribbon:after {
+  content: "";
   position: absolute;
   top: 4em;
   right: -5em;
   width: 20em;
-  height: 2em;
+  height: 2.5em;
   display: block;
   background-color: black;
 
@@ -32,18 +34,18 @@
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
+
+  pointer-events: auto;
 }
 
-.hundred-days-of-code-ribbon:before {
-  content: "";
-}
-
+/* 3. Content */
 .hundred-days-of-code-ribbon:after {
   content: "#100DaysOfCode : Day " attr(data-day);
+  background-color: rgba(0, 0, 0, 0);
   color: white;
-  line-height: 2em;
-/*   text-decoration: none; */
-/*   text-shadow: 0 -.08em rgba(0, 0, 0, 0.5); */
+  line-height: 3.5em;
+  text-decoration: none;
   text-align: center;
   text-indent: 0;
+  font-size: 0.95em;
 }
