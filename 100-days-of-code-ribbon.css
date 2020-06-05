@@ -1,0 +1,49 @@
+.hundred-days-of-code-ribbon {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+  width: 12em;
+  height: 12em;
+  text-decoration: none;
+  overflow: hidden;
+  pointer-events: none;
+  text-decoration: none;
+  text-indent: -999999px;
+  font-family: avenir next, avenir, sans-serif;
+  background-color: red;
+}
+
+.hundred-days-of-code-ribbon:before, .hundred-days-of-code-ribbon:after {
+  position: absolute;
+  top: 4em;
+  right: -5em;
+  width: 20em;
+  height: 2em;
+  display: block;
+  background-color: black;
+
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.hundred-days-of-code-ribbon:before {
+  content: "";
+}
+
+.hundred-days-of-code-ribbon:after {
+  content: "#100DaysOfCode : Day " attr(data-day);
+  color: white;
+  line-height: 2em;
+/*   text-decoration: none; */
+/*   text-shadow: 0 -.08em rgba(0, 0, 0, 0.5); */
+  text-align: center;
+  text-indent: 0;
+}
