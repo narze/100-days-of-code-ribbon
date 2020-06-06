@@ -1,0 +1,9 @@
+{
+  "name": "hundred-days-of-code-ribbon",
+  "version": "0.1.0",
+  "description": "#100DaysOfCode Ribbon",
+  "main": "index.js",
+  "repository": "git@github.com:narze/100-days-of-code-ribbon.git",
+  "author": "Manassarn Manoonchai <manassarn@gmail.com>",
+  "license": "MIT"
+}
