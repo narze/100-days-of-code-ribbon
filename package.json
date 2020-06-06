@@ -1,8 +1,8 @@
 {
   "name": "hundred-days-of-code-css-ribbon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "#100DaysOfCode CSS Ribbon",
-  "main": "index.js",
+  "main": "100-days-of-code-ribbon.css",
   "repository": "git@github.com:narze/100-days-of-code-ribbon.git",
   "author": "Manassarn Manoonchai <manassarn@gmail.com>",
   "license": "MIT"
